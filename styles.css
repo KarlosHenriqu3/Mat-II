@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #FF862A;
+    --vermelho-sangue: #970700;
 }
 
 body {
@@ -21,7 +21,7 @@ section {
 
 
 .nav-link {
-    color: #CB6D43;
+    color: #ff0000;
     font-weight: 600;
 }
 
@@ -57,7 +57,7 @@ section {
 
 
 .botao-inicio {
-    background-color: var(--laranja-claro);
+    background-color: var(--vermelho-sangue);
     border-radius: 30px;
     border: none;
     width: 14em;
@@ -69,11 +69,11 @@ section {
 }
 
 .display-4 {
-    text-shadow: -5px 5px var(--laranja-claro);
+    text-shadow: -5px 5px var(--vermelho-sangue);
 }
 
 
-#tropicalia {
+#KarlMotors {
     position: relative;
     padding-top: 5rem;
     margin-top: 3rem;
@@ -84,7 +84,7 @@ section {
     /* Ajuste o tamanho conforme necessário */
 }
 
-#tropicalia .container {
+#KarlMotors .container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,7 +131,7 @@ h2 {
 }
 
 .formulario button {
-    background-color: #CB6D43;
+    background-color: #ff0000;
     border: none;
     font-weight: bold;
 }
